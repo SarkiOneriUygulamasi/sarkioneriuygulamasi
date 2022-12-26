@@ -58,7 +58,7 @@ public class Main {
                 songs = new Electronic();
             } else {
                 System.out.println("Invalid genre.");
-                return;
+                continue;
             }
 
             System.out.println("\nBİZDEN SANA 10 ADET " +
