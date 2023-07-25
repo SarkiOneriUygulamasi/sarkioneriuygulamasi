@@ -1,0 +1,17 @@
+package com.example.arraylist
+
+import java.util.Scanner
+
+
+fun main() {
+    var scanner = Scanner(System.`in`)
+    println("sinav notunuzu girin:")
+    var not = scanner.nextInt()
+    if (not >= 70 && not <= 100){
+        println("gectiniz")
+    }else if (not < 70 && not >= 0){
+        println("kaldiniz")
+    }else{
+        println("hatali not girisi")
+    }
+}
